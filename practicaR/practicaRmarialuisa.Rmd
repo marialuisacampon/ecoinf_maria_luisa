@@ -1,0 +1,93 @@
+---
+title: "Ailanthus altissima"
+author: "María Luisa Campón Amado"
+date: "2023-05-17"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 4
+  toc: default
+  word_document:
+    toc: yes
+    toc_depth: '4'
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+![*Ailanthus altissima*](C:\Users\Usuario\Desktop\practicaR\ailanthus.PNG)
+
+# **DESCRIPCIÓN**
+Árbol que alcanza los 30 m de altura, de corteza lisa y grisácea, cuyo tronco puede recordar a la pata de un elefante. Las hojas son muy grandes, de hasta casi un metro de longitud, caducas, alternas y compuestas por un número impar de hojuelas (imparipinnadas), que le dan un aspecto plumoso. El margen de las hojuelas es irregular, a menudo con lóbulos en la base, y tienen la característica de que huelen mal al ser machacadas, por lo que a veces se denomina a este árbol malhuele. Las flores masculinas y femeninas por lo general salen en distintos pies de planta, con lo cual hay árboles macho y árboles hembra. Los frutos son secos y tienen una semilla del tamaño de una lenteja rodeada de un ala membranosa alargada que le sirve para la dispersión por el viento (sámaras). Cuando maduran se retuercen un poco al secarse.
+
+# **ECOLOGÍA**
+Aparece aislado o en rodales e incluso llega a formar bosquetes. Se asilvestra en cunetas, eriales, linderos, vías férreas, cultivos abandonados, escombreras, vaguadas y fondos de valle. Es una planta muy adaptable; resiste bien la contaminación y la sequía y medra sobre cualquier tipo de suelo, pero sufre mucho con las heladas fuertes. Germina con mucha facilidad de semilla y se extiende también por brotes radicales, al punto de que se la puede ver incluso saliendo por grietas de muros y rejas de alcantarillas. Necesita mucha luz y crece desde el nivel del mar hasta los 1500 m.
+
+# **DISTRIBUCIÓN**
+Árbol originario del sudeste de Asia que se ha naturalizado en muchas regiones del mundo. En nuestro territorio aparece en todas las provincias, a veces como ornamental y a menudo asilvestrado, llegando a convertirse en especie invasora en muchos lugares. Está incluido en el Atlas de las plantas alóctonas invasoras en España.
+
+![Distribucion del ailanto en España](C:\Users\Usuario\Desktop\practicaR\distribucionailanto.PNG)
+
+## **ESTUDIOS DEL AILANTO EN MADRID**
+### *Material y métodos*
+Analizaron la evolución de Ailanthus altissima en la Comunidad de Madrid desde su introducción hasta la actualidad. Para ello utilizaron varias fuentes de información:
+
+  a) **Bibliografía**
+  
+  b) **Bases de datos**
+  
+  c) **Herbarios**
+  
+  d) **Prospecciones de 1992**
+  
+Además se realizaron una búsqueda de bibliografía sobre la especie, para analizar sus características, fisiología y ecología, que permita analizar los mecanismos y vías de expansión de la especie en el territorio estudiado.
+
+### *Resultados*
+
+  a) **Hasta 1979**:
+  Se cultivaba en jardines como especie   ornamental. Se obtuvo que había         registros de la especie en 2            cuadrículas UTM de 10x10 de las 115     que abarcaban la Comunidad de Madrid.
+  
+  ![Distribución de *Ailanthus altissima* en Madrid antes de 1979](C:\Users\Usuario\Desktop\practicaR\Figura1.PNG)
+  
+  b) **1980-1999**:
+  A partir de 1980 comienzan a            encontrarse más citas de ailanto en     Madrid. Hasta 1999 había registros de   la especie en 15 cuadrículas UTM de     10x10. Las prospecciones realizadas en  1992
+  muestran sin embargo que la             distribución de la especie
+  entonces era ya entonces mucho más     amplia, abarcando
+  45 cuadrículas UTM de 10×10, con citas  en 67 cuadrículas de 1×1.
+  
+  ![Distribución de *Ailanthus altissima* en Madrid hasta 1999](C:\Users\Usuario\Desktop\practicaR\Figura2.PNG)
+  
+  c) **2000-2019**:
+  Nuestros resultados para 2019
+muestran la presencia de la especie en 88 cuadrículas
+UTM de 10, un 76,5 % del total estudiado, aunque un
+porcentaje mucho mayor en superficie, ya que las
+cuadrículas sin citas son casi todas perimetrales, algunas
+con una superficie madrileña muy reducida; dentro de
+ellas, hay registros en 948 cuadrículas de 1×1. En
+consecuencia, la presencia de la especie ha sufrido un gran
+incremento en las últimas décadas, estando presente en la
+mayoría de municipios de la región. 
+
+  ![Distribución de *Ailanthus altissima* en Madrid en 2019](C:\Users\Usuario\Desktop\practicaR\Figura3.PNG)
+
+### *Conclusiones*
+
+El ailanto invade gran parte del territorio de la Comunidad de Madrid, estando en una fase expansiva en las
+últimas décadas. Aunque su principal vía de expansión son las carreteras, cada vez coloniza más cauces fluviales, y hay casos puntuales de invasión de otras comunidades naturales. Todo apunta a que está invasión va a
+continuar en el tiempo, existiendo un importante riesgo de infestación en riberas e incluso en bosques de frondosas de la Sierra a medio o largo plazo.
+La ausencia de una cartografía detallada de distribución de esta especie, y más aún la publicación de mapas que han infravalorado su presencia, han podido llevar a minimizar un problema que en la actualidad es importante, y exige tomar medidas. La administración autonómica ha desarrollado actuaciones puntuales de erradicación en espacios naturales protegidos en los últimos años, pero serían precisas acciones más amplias y ambiciosas para mantener áreas libres de ailanto dentro de la región.
+Las única especies que compite de forma eficaz con el ailanto son precisamente otras invasoras, Ulmus pumila, Robinia pseudoacacia y Gleditsia triacanthos. Su presencia en Madrid, sobre todo de la primera especie, es muy elevada, precisando una mayor atención, ya que
+también se están infravalorando sus riesgos.
+La cartografía de especies invasoras es una herramienta esencial para su control, y debería generalizarse,
+y actualizarse de forma periódica.
+
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+|    10    |    45    |    75    |
+
+data(mtcars)
+head(mtcars)
+table(mtcars$cy1)
+barplot(table(mtcars$cy))
+
